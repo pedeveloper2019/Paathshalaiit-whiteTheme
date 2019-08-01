@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,h6{
     height: 22vh;
 }
 .arrow1,.arrow2{
-    border: 20px solid white;
+    border: 20px solid #343a40;
     height: 10px;width:10px;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
 /* Footer */
 .footer-menu{
     text-align: justify;
-    color: white;
+    color: black;
     width: 30%;display: inline-block;margin-left: 2vw;
     font-size: 13px;
     font-weight: 450;
@@ -182,7 +182,7 @@ ul {
   padding-right: .5vw;
 }
 .top-links a{
-    color: white;
+    color: black;
     /* border: 1px solid red; */
 }
 .top-links a:hover{
@@ -272,5 +272,8 @@ nav > div a.nav-item.nav-link.active:after
  bottom: -45px;
  left: -14%;
  border: 15px solid transparent;
- border-top-color: white ;
+ border-top-color: forestgreen ;
+}
+nav > div a.nav-item.nav-link.active{
+    border:5px solid forestgreen;
 }
