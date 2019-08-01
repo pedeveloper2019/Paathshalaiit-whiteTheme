@@ -179,7 +179,7 @@ ul {
 .top-links{
   float: right;
   margin-right: 1vh;
-  border-right: 1px solid white;
+  border-right: 1px solid black;
   padding-right: .5vw;
 }
 .top-links a{
@@ -247,10 +247,15 @@ ul {
 
 /* testimonial page style */
 .blue-gradient {
-    background: linear-gradient(to left,#003153,#301728FF);
+    /* background: linear-gradient(to left,#003153,#301728FF); */
+    background: linear-gradient(to left, #3931af, #00c6ff);
 }
 .blue-gradient-rev{
-    background: linear-gradient(to right,#003153,#301728FF);
+    background: linear-gradient(to right, #3931af, #00c6ff);
+}
+.results ul li{
+    font-weight: 600;
+    margin-top: 1vh;
 }
 /* arrow before dropdown-menu */
 .dropdown > .dropdown-menu:before
