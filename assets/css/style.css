@@ -265,8 +265,9 @@ ul {
     /* bottom: -45px; */
     top:-45px;
     right: -14%;
-    border: 15px solid transparent;
-    border-bottom-color: white ;
+    border: 15px dashed transparent;
+    border-bottom-color: #eef ;
+    
 }
 .dropdown-menu{margin-top: 1vh;}
 
