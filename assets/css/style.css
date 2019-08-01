@@ -1,0 +1,276 @@
+/* Colors */
+.bg-prussian{
+    background: #003153;
+}
+.bg-purple{
+    background: #93385FFF;
+}
+.bg-lilac{
+    background: #9F6B99FF;
+}
+.bg-petunia{
+    background: #4F3466FF;
+}
+.bg-gleam{
+    background: #301728FF;
+}
+.bg-deepblue
+{
+    background: #2460A7FF;
+}
+.bg-coffee{
+    background: #D9B48FFF;
+}
+.bg-wine{
+    background: #643E46FF;
+}
+/* For All Pages */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    font-family: "Poppins";
+    font-size: 13px;
+    line-height: 23px;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+}
+.dropdown-item:hover{
+    color:black !important;
+}
+.dropdown-item:hover{
+    background:black;
+    color:white !important;
+}
+/* Banner image style */
+.banner-images{
+    height:100vh;
+    object-fit:cover;
+}
+/* Tablist ul li  */
+.nav-tabs .nav-link{
+  width: 25%;
+  text-align: center;
+}
+#workshoptabs{
+    padding: 4vh;
+}
+.listParent li{
+    margin-top: 2vh;
+}
+.listParent li i{
+    margin-right: .5vw;
+}
+/* hr Lines */
+.hrline
+{
+    padding: 0;margin: 0;
+    border: 1px solid cyan;
+    margin-top: 5vh;
+}
+/* features cards  */
+#Features .card{
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    /* float: left; */
+    width: 14vw;
+    height:39vh;
+    display: inline-block;
+    margin-left:1vw;/*margin-bottom: 0px !important;This is overriden by bootstrap so important is added.*/
+    text-align: left;
+    overflow: hidden;
+    font-size: 14px;
+}
+#Features .card-img-top{
+    height: 22vh;
+}
+.arrow1,.arrow2{
+    border: 20px solid white;
+    height: 10px;width:10px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    position: relative;
+    left:9vw;
+    top:-6vh;
+    display:none;
+}
+.infobox1,.infobox2{
+    width: 75vw;margin-left: 3.5vw;
+    text-align: left;margin-top:-6vh;
+    border-radius: 1vw;margin-bottom: 2vh;
+    display: none;
+}
+.card-infobox{
+    display: none;
+}
+.responsive-infobox{
+    display: none;
+}
+/* Testimonial */
+.item img{
+    width:100px;
+    margin:1vw;
+}
+.item{
+    /* color:white; */
+    /* margin-bottom: 2vh; */
+    padding:2vw;
+    background-color: white;
+}
+
+/* Footer */
+.footer-menu{
+    text-align: justify;
+    color: white;
+    width: 30%;display: inline-block;margin-left: 2vw;
+    font-size: 13px;
+    font-weight: 450;
+}
+.footer-menu li::before {
+	list-style-type: none;
+    content: "\f138";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 1vw;
+}
+.footer-menu li{
+    padding: .5vw;
+}
+.contactlist li{
+    margin: 2vh;
+}
+
+
+/* Basic styles */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Header styles */
+.navbar{
+  margin-top: 3vh;
+}
+.navCollapse{
+  position: fixed;
+  top:10vh;
+  width: 30vw;
+  /* height: 90vh; */
+  z-index:2000;
+  right:0;
+  font-size: 2vw;
+  display: none;
+}
+.navCollapse ul li{
+  margin-top: 2vw;
+}
+/* Top Div */
+.top-icons{
+    float: left;
+    /* margin-right: 1vw !important; */
+    margin-left: .5vw;
+}
+.top-contact{
+    float: left;
+    margin-left: 1vw;
+    margin-right: 20vw !important;
+}
+.top-links{
+  float: right;
+  margin-right: 1vh;
+  border-right: 1px solid white;
+  padding-right: .5vw;
+}
+.top-links a{
+    color: white;
+    /* border: 1px solid red; */
+}
+.top-links a:hover{
+    text-decoration: none;
+}
+.slideDiv{
+  position:absolute;z-index:2000;width:30vw;
+  right:0;
+  top:10vh;
+  /* left:-30vw; */
+  display: none;
+  font-size: 2vw;
+}
+.slideDiv ul li{
+  margin-top:2vw;
+}
+.togglebtn{
+  z-index:2000;position: absolute;right:3vw;
+  display: none;color:white;
+}
+#top-toggle{
+  position:absolute;right:0px;height: 1vh;margin-right: 3vw;
+  cursor: pointer;z-index:10000;display:inline-block;
+  display: none;
+}
+
+/* Enrollment Form */
+.leftDiv{
+    width:30%;
+    /* border:1px solid blue; */
+}
+.rightDiv{
+    width:70%;
+    /* border:1px solid red; */
+    border-top-left-radius: 10% 50%;border-bottom-left-radius: 10% 50%;
+}
+
+/* End Of Home Page Style */
+/* KVPY-IISER page style */
+#A2C3 a{
+    color:white;
+}
+#A2C3 a:hover{
+    text-decoration: none;
+    color:green;
+}
+/* KVPY-IISER page style end */
+
+/* contact us page */
+
+#contact-us-cards .card{
+    float:left;
+    text-align: center;
+    margin-left: 2vw;
+    width: 30%;
+}
+#contact-us-cards{
+    overflow: auto;
+}
+/* contact us page end */
+
+/* testimonial page style */
+.blue-gradient {
+    background: linear-gradient(to left,#003153,#301728FF);
+}
+.blue-gradient-rev{
+    background: linear-gradient(to right,#003153,#301728FF);
+}
+/* arrow before dropdown-menu */
+.dropdown > .dropdown-menu:before
+{
+    content: "";
+    position: relative;
+    /* bottom: -45px; */
+    top:-45px;
+    right: -14%;
+    border: 15px solid transparent;
+    border-bottom-color: white ;
+}
+.dropdown-menu{margin-top: 1vh;}
+
+/* arrow after tabs of .nav-tabs */
+nav > div a.nav-item.nav-link.active:after
+{
+ content: "";
+ position: relative;
+ bottom: -45px;
+ left: -14%;
+ border: 15px solid transparent;
+ border-top-color: white ;
+}

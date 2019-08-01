@@ -1,0 +1,114 @@
+@media screen and (max-width:990px)
+{
+    .top-contact{
+        margin-right:2vw !important;
+    }
+    .top-links{
+        display: none;
+    }
+    #top-toggle{
+        display: inline;
+    }
+    .togglebtn{
+        display: block;
+    }
+    #Features .card
+    {
+        width: 30vw;
+        display:block;
+        margin: 0 auto;
+        height: 50vh;
+        /* border:1px solid red; */
+    }
+    #contact-us-cards .card{
+        float: none;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .infobox1, .infobox2, .arrow1, .arrow2{
+        display: none;
+    }
+    .responsive-infobox{
+        background: white;
+        width: 60vw;
+        border-radius: 1vh;
+        /* display:block; */
+        margin: 0 auto;
+        margin-top: 3.8vh;
+        /* height: 50vh; */
+        /* border:1px solid red; */
+    }
+    #Features .card-img-top{
+        height:30vh !important;
+    }
+    .navbar ul li{
+        margin-left: 1.5vw;
+    }
+}
+@media screen and (max-width: 770px) {
+    .dropdown-menu{
+        width: 10vw !important;
+        font-size: 1.5vw !important;
+        transform: none !important;
+        top:4vw !important;
+      }
+    .top-nav{
+        font-size: 2vw;
+    }
+    #Features .card
+    {
+        width: 60vw;
+        display:block;
+        margin: 0 auto;
+        height: 50vh;
+        border:1px solid red;
+    }
+    .responsive-infobox{
+        font-size: 3vw;
+        width: 80vw;
+    }
+    .footer-menu{
+        width: 100% !important;
+        font-size: 2vh;
+        /* border:1px solid red; */
+        padding: 2vh;
+    }
+    #about{
+        display: block;
+        width: 100% !important;
+        float: none;
+    }
+    #contact{
+        display: block;
+        width: 100% !important;
+        float: none;    
+    }
+    .nav-tabs .nav-link{
+        font-size: 1.2vw;
+    }
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 515px) {
+    
+    .nav-tabs .nav-item{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        font-size: 2vw;
+    }
+    .nav-link{
+        font-size: 1.4vw !important;
+    }
+}
+@media screen and (max-width: 390px) {
+    
+    .nav-tabs .nav-item{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        font-size: 1.7vw;
+    }
+    .nav-tabs .nav-link{
+        font-size: 1.2vw !important;
+    }
+    
+}
