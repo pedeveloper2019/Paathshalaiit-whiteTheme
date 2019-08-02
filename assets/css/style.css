@@ -122,7 +122,7 @@ h1,h2,h3,h4,h5,h6{
 /* Footer */
 .footer-menu{
     text-align: justify;
-    color: black;
+    color: white;
     width: 30%;display: inline-block;margin-left: 2vw;
     font-size: 13px;
     font-weight: 450;
@@ -183,11 +183,11 @@ ul {
 .top-links{
   float: right;
   margin-right: 1vh;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
   padding-right: .5vw;
 }
 .top-links a{
-    color: black;
+    color: white;
     /* border: 1px solid red; */
 }
 .top-links a:hover{
