@@ -16,11 +16,13 @@ $(function () {
         if ($(window).scrollTop() >= header) {
             $(".togglebtn").css("color","black");
             // $(".navbar").css("margin-top","0vh")
-            $(".navbar").css("background","black")
+            $(".navbar").css("background-image","url('assets/images/top-nav-bg.png')")
+            $("#top-navigation").css("background","none")
         }
         else {
             $(".togglebtn").css("color","white");
             $(".navbar").css("background","transparent")
+            $("#top-navigation").css("background-image","url('assets/images/top-nav-bg.png')")
             // $(".navbar").css("margin-top","3vh")
         }
     });
