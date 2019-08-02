@@ -149,6 +149,9 @@ ul {
     list-style: none;
 }
 /* Header styles */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
 .navbar{
   margin-top: 3vh;
 }
@@ -260,6 +263,11 @@ ul {
 }
 .blue-gradient-dia{
     background: linear-gradient(to bottom left, #3931af, #00c6ff);
+}
+#top-navigation{
+    background-image: url('assets/images/top-nav-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .results ul li{
     font-weight: 600;
