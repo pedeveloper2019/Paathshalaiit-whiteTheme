@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6{
     margin-left:1vw;/*margin-bottom: 0px !important;This is overriden by bootstrap so important is added.*/
     text-align: left;
     overflow: hidden;
-    box-shadow: .7vw 1vw black;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.7);
     font-size: 14px;
 }
 #Features .card-img-top{
@@ -257,6 +257,9 @@ ul {
 .blue-gradient-rev{
     background: linear-gradient(to right, #3931af, #00c6ff);
 }
+.blue-gradient-dia{
+    background: linear-gradient(to bottom left, #3931af, #00c6ff);
+}
 .results ul li{
     font-weight: 600;
     margin-top: 1vh;
@@ -270,7 +273,7 @@ ul {
     top:-45px;
     right: -14%;
     border: 15px dashed transparent;
-    border-bottom-color: #eef ;
+    border-bottom-color: white ;
     
 }
 .dropdown-menu{margin-top: 1vh;}
