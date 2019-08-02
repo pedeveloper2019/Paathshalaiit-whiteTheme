@@ -42,7 +42,7 @@
             <li><a href="#">SPARK EXCELLENCE</a></li>
         </ul>
     </div>
-    <div class="top-nav text-dark" style="text-align: center;z-index:10000;position:relative;">
+    <div class="top-nav text-dark">
         <ul class="list-inline">
             <li class="list-inline-item top-icons">
                 <a title="Paathshala Facebook"><i class="fa fa-facebook"></i></a>
@@ -606,23 +606,7 @@
 <script>
     new WOW().init();
 </script>
-<script>
-    $(function () {
-        $(window).scroll(function () {
-            if ($(window).scrollTop() >= 20) {
-                $(".togglebtn").css("color", "black");
-                $('.navbar').removeClass('navbar-dark');
-                $('.navbar').addClass('navbar-light bg-light');
-                $(".navbar").css("margin-top", "0vh")
-            } else {
-                $(".togglebtn").css("color", "black");
-                $('.navbar').removeClass('bg-light');
-                $('.navbar').addClass('navbar-light');
-                $(".navbar").css("margin-top", "3vh")
-            }
-        });
-    });
-</script>
+<script src="assets/js/header.js"></script>
 <!-- <script src="assets/js/index.js"></script> -->
 <script src="assets/js/responsive.js"></script>
 <script src="enquiry.js"></script>
