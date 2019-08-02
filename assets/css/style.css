@@ -265,7 +265,7 @@ ul {
     background: linear-gradient(to bottom left, #3931af, #00c6ff);
 }
 #top-navigation{
-    background-image: url('assets/images/top-nav-bg.png');
+    background-image: url('../images/top-nav-bg.png');
     background-repeat:no-repeat;
     background-size:cover;
 }
