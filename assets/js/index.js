@@ -15,13 +15,13 @@ $(function () {
     $(window).scroll(function () { 
         if ($(window).scrollTop() >= header) {
             $(".togglebtn").css("color","black");
-            $(".navbar").css("margin-top","0vh")
+            // $(".navbar").css("margin-top","0vh")
             $(".navbar").addClass("bg-dark")
         }
         else {
             $(".togglebtn").css("color","white");
             $(".navbar").removeClass("bg-dark")
-            $(".navbar").css("margin-top","3vh")
+            // $(".navbar").css("margin-top","3vh")
         }
     });
     // alert($(window).width())
