@@ -183,8 +183,9 @@ ul {
 .top-links{
   float: right;
   margin-right: 1vh;
-  border-right: 1px solid white;
+  border: 1px solid white;
   padding-right: .5vw;
+  padding-left: .5vw;
 }
 .top-links a{
     color: white;

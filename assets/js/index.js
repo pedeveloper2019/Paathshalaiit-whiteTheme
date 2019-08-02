@@ -16,11 +16,11 @@ $(function () {
         if ($(window).scrollTop() >= header) {
             $(".togglebtn").css("color","black");
             // $(".navbar").css("margin-top","0vh")
-            $(".navbar").addClass("bg-dark")
+            $(".navbar").css("background","black")
         }
         else {
             $(".togglebtn").css("color","white");
-            $(".navbar").removeClass("bg-dark")
+            $(".navbar").css("background","transparent")
             // $(".navbar").css("margin-top","3vh")
         }
     });
