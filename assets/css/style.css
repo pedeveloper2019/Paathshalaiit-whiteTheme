@@ -28,6 +28,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
     font-family: "Poppins";
+    /* font-family: "Camphor,Open Sans,Segoe UI,sans-serif"; */
     font-size: 13px;
     line-height: 23px;
 }
@@ -192,6 +193,10 @@ ul {
 }
 .top-links a{
     color: white;
+    /* border: 1px solid red; */
+}
+.top-links .dropdown-menu .dropdown-item{
+    color:black;
     /* border: 1px solid red; */
 }
 .top-links a:hover{
