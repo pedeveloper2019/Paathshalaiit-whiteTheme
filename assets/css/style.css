@@ -1,4 +1,7 @@
 /* Colors */
+.bg-black{
+    background: black;
+}
 .bg-prussian{
     background: #003153;
 }
@@ -82,9 +85,9 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 0 6px 15px rgba(0,0,0,0.7);
     font-size: 14px;
 }
-#Features .card-img-top{
-    /* height: 30vh; */
-}
+/* #Features .card-img-top{
+    height: 30vh;
+} */
 .arrow1,.arrow2{
     border: 20px solid rgb(2, 2, 27);
     height: 10px;width:10px;
@@ -360,4 +363,9 @@ nav > div a.nav-item.nav-link.active{
 }
 .card{
     border:none;
+}
+.bg-photo{
+    background-image: url('../images/top-nav-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
