@@ -16,7 +16,7 @@ $(function () {
         if ($(window).scrollTop() >= header) {
             $(".togglebtn").css("color","black");
             // $(".navbar").css("margin-top","0vh")
-            $(".navbar").css("background-image","url('assets/images/top-nav-bg.png')")
+            $(".navbar").css({"background-image":"url('assets/images/top-nav-bg.png')","background-repeat":"no-repeat","background-size":"cover"})
             $("#top-navigation").css("background","none")
         }
         else {
