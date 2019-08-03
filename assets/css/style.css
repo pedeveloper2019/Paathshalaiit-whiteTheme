@@ -142,6 +142,10 @@ h1,h2,h3,h4,h5,h6{
     margin: 2vh;
 }
 
+#video-carousel video{
+    height: 60vh;
+    width: 100%;
+}
 
 /* Basic styles */
 ul {
@@ -262,6 +266,9 @@ ul {
 /* contact us page end */
 
 /* testimonial page style */
+.my-gradient{
+    background: linear-gradient(to right, #3931af, #00c6ff)
+}
 .blue-gradient {
     /* background: linear-gradient(to left,#003153,#301728FF); */
     /* background: linear-gradient(to left, #3931af, #00c6ff); */
