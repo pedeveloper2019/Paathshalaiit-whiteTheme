@@ -288,7 +288,7 @@ ul {
     right: -5%;
     border: 15px dashed transparent;
     border-bottom-color: white ;
-    
+    /* color:white */
 }
 .dropdown-menu{margin-top: 1vh;}
 
