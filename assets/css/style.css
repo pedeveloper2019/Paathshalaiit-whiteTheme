@@ -179,6 +179,9 @@ ul {
     /* margin-right: 1vw !important; */
     margin-left: .5vw;
 }
+.top-icons a{
+    color:white;
+}
 .top-contact{
     float: left;
     margin-left: 1vw;
