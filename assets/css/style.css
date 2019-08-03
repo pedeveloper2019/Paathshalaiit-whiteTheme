@@ -73,8 +73,8 @@ h1,h2,h3,h4,h5,h6{
     /* border: 1px solid red; */
     /* position: absolute; */
     /* float: left; */
-    width: 14vw;
-    height:39vh;
+    /* width: 20vw; */
+    /* height:42vh; */
     display: inline-block;
     margin-left:1vw;/*margin-bottom: 0px !important;This is overriden by bootstrap so important is added.*/
     text-align: left;
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
 }
 #Features .card-img-top{
-    height: 22vh;
+    /* height: 30vh; */
 }
 .arrow1,.arrow2{
     border: 20px solid rgb(2, 2, 27);
@@ -109,7 +109,10 @@ h1,h2,h3,h4,h5,h6{
     display: none;
 }
 .responsive-infobox{
-    display: none;
+    /* display: none; */
+    background-image: url('../images/top-nav-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 /* Testimonial */
 .item img{
@@ -159,6 +162,15 @@ ul {
 /* Header styles */
 .navbar-dark .navbar-nav .nav-link {
     color: white;
+}
+#top-navigation .nav-item.active{
+    /* border:1px solid red; */
+    border-radius: 1vw;
+    background: linear-gradient(to right, #3931af, #00c6ff);
+}
+#top-navigation .nav-item:hover:not(.active){
+    border-radius: 1vw;
+    background: linear-gradient(to right, #3931af, #00c6ff);
 }
 .navbar{
   margin-top: 3vh;
@@ -213,7 +225,7 @@ ul {
 }
 .top-links{
   float: right;
-  margin-right: 1vh;
+  /* margin-right: 1vh; */
   border: 1px solid white;
   border-radius: 2vh;
   padding-right: .5vw;
@@ -313,6 +325,7 @@ ul {
     background-image: url('../images/top-nav-bg.png');
     background-repeat:no-repeat;
     background-size:cover;
+    border-radius: 1vw;
 }
 .results ul li{
     font-weight: 600;

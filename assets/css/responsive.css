@@ -12,14 +12,6 @@
     .togglebtn{
         display: block;
     }
-    #Features .card
-    {
-        width: 30vw;
-        display:block;
-        margin: 0 auto;
-        height: 50vh;
-        /* border:1px solid red; */
-    }
     #contact-us-cards .card{
         float: none;
         width: 70%;
@@ -30,16 +22,13 @@
     }
     .responsive-infobox{
         background: white;
-        width: 60vw;
+        /* width: 60vw; */
         border-radius: 1vh;
-        /* display:block; */
+        display:block;
         margin: 0 auto;
         margin-top: 3.8vh;
         /* height: 50vh; */
         /* border:1px solid red; */
-    }
-    #Features .card-img-top{
-        height:30vh !important;
     }
     .navbar ul li{
         margin-left: 1.5vw;
@@ -54,14 +43,6 @@
       }
     .top-nav{
         font-size: 2vw;
-    }
-    #Features .card
-    {
-        width: 60vw;
-        display:block;
-        margin: 0 auto;
-        height: 50vh;
-        border:1px solid red;
     }
     .responsive-infobox{
         font-size: 3vw;
