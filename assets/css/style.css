@@ -363,8 +363,15 @@ nav > div a.nav-item.nav-link.active:after
  border: 15px solid transparent;
  border-top-color: #007bff ;
 } */
+nav > div a.nav-item.nav-link{
+    font-size: 1.5vw;
+    vertical-align: top;
+}
+
 nav > div a.nav-item.nav-link.active{
-    border:5px solid #007bff;
+    /* border:5px solid #007bff; */
+    background: rgb(28, 123, 214);
+    color:white !important;
 }
 .card{
     border:none;

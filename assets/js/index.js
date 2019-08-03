@@ -10,7 +10,7 @@ $(function () {
         $(".navCollapse").slideToggle();
     });
     
-    $("#top-navigation .nav-item").mouseenter(function () { 
+    $("#top-navigation .nav-item:not(.active)").mouseenter(function () { 
         $("#top-navigation .nav-item.active").css("background","none")
     });
     $("#top-navigation .nav-item").mouseleave(function () { 
