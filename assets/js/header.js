@@ -1,4 +1,12 @@
 $(function () {
+
+    $("#top-navigation .nav-item").mouseenter(function () { 
+        $("#top-navigation .nav-item.active").css("background","none")
+    });
+    $("#top-navigation .nav-item").mouseleave(function () { 
+        $("#top-navigation .nav-item.active").css("background","#1c7bd6")
+    });
+
     $(window).scroll(function () {
         if ($(window).scrollTop() >= 20) {
             $(".togglebtn").css("color", "black");
