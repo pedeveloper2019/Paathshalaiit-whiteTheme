@@ -36,9 +36,9 @@ body{
     font-size: 13px;
     line-height: 23px;
 }
-h1,h2,h3,h4,h5,h6{
+/* h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
-}
+} */
 .dropdown-item:hover{
     color:black !important;
 }
