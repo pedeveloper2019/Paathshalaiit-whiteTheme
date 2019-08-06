@@ -19,7 +19,8 @@
 }
 .bg-deepblue
 {
-    background: #2460A7FF;
+    /* background: #2460A7FF; */
+    background:#2a0071;
 }
 .bg-coffee{
     background: #D9B48FFF;
@@ -366,11 +367,13 @@ nav > div a.nav-item.nav-link.active:after
 nav > div a.nav-item.nav-link{
     font-size: 1.5vw;
     vertical-align: top;
+    background: rgb(28, 123, 214);
+    color:white !important;
 }
 
 nav > div a.nav-item.nav-link.active{
     /* border:5px solid #007bff; */
-    background: rgb(28, 123, 214);
+    background: #2a0071;
     color:white !important;
 }
 .card{
