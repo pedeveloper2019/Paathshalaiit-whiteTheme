@@ -127,10 +127,9 @@ body{
     margin:1vw;
 }
 .item{
-    /* color:white; */
-    /* margin-bottom: 2vh; */
     padding:2vw;
-    background-color: white;
+    color:white;
+    background: linear-gradient(to right, #264784,#3F97D7 );
 }
 
 /* Footer */
@@ -321,11 +320,13 @@ ul {
 .blue-gradient {
     /* background: linear-gradient(to left,#003153,#301728FF); */
     /* background: linear-gradient(to left, #3931af, #00c6ff); */
-    background-image: linear-gradient(145deg,#b77bfb,#2a0071 30%);
+    /* background-image: linear-gradient(145deg,#b77bfb,#2a0071 30%); */
+    background: linear-gradient(to right, #264784,#3F97D7 );
 }
 .blue-gradient-rev{
     /* background: linear-gradient(to right, #3931af, #00c6ff); */
-    background-image: linear-gradient(-145deg,#b77bfb,#2a0071 30%);
+    /* background-image: linear-gradient(-145deg,#b77bfb,#2a0071 30%); */
+    background: linear-gradient(to left, #264784,#3F97D7 );
 }
 .blue-gradient-dia{
     background: linear-gradient(to bottom left, #3931af, #00c6ff);
@@ -387,4 +388,5 @@ nav > div a.nav-item.nav-link.active{
 .bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
     background: white;
     color: #495057 !important;
-}   
+}
+/* background-image: linear-gradient(145deg,#b77bfb,#2a0071 30%); */
