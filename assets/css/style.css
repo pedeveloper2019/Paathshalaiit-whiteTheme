@@ -390,3 +390,6 @@ nav > div a.nav-item.nav-link.active{
     color: #495057 !important;
 }
 /* background-image: linear-gradient(145deg,#b77bfb,#2a0071 30%); */
+#contact span.badge{
+    background:#17a2b8;
+}
