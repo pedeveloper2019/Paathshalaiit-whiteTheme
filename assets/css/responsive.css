@@ -33,8 +33,11 @@
     .navbar ul li{
         margin-left: 1.5vw;
     }
+    .nav-tabs .nav-link:last-child{
+        font-size: 1vw;
+    }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 550px) and (max-width: 770px) {
     .dropdown-menu{
         width: 10vw !important;
         font-size: 1.5vw !important;
@@ -65,31 +68,31 @@
         float: none;    
     }
     .nav-tabs .nav-link{
-        font-size: 1.2vw;
+        font-size: .9vw;
     }
     
 }
 
-@media screen and (min-width: 376px) and (max-width: 515px) {
+@media screen and (min-width: 390px) and (max-width: 515px) {
     
-    .nav-tabs .nav-item{
+    .nav-tabs .nav-item:last-child{
         /* display: inline-block; */
         /* border: 1px solid red; */
-        font-size: 2vw;
+        font-size: 1vw;
     }
     .nav-link{
-        font-size: 1.4vw !important;
+        font-size: 1.1vw !important;
     }
 }
 @media screen and (max-width: 390px) {
     
-    .nav-tabs .nav-item{
+    .nav-tabs .nav-item:last-child{
         /* display: inline-block; */
         /* border: 1px solid red; */
-        font-size: 1.7vw;
+        font-size: .5vw;
     }
     .nav-tabs .nav-link{
-        font-size: 1.2vw !important;
+        font-size: 1vw !important;
     }
     
 }
