@@ -121,16 +121,6 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
 }
-/* Testimonial */
-.item img{
-    width:100px;
-    margin:1vw;
-}
-.item{
-    padding:2vw;
-    color:white;
-    background: linear-gradient(to right, #264784,#3F97D7 );
-}
 
 /* Footer */
 .footer-menu{
@@ -279,13 +269,7 @@ ul {
 }
 
 /* Enrollment Form */
-.leftDiv{
-    width:30%;
-    /* border:1px solid blue; */
-}
 .rightDiv{
-    width:70%;
-    /* border:1px solid red; */
     border-top-left-radius: 10% 50%;border-bottom-left-radius: 10% 50%;
 }
 
@@ -340,6 +324,10 @@ ul {
 .results ul li{
     font-weight: 600;
     margin-top: 1vh;
+}
+.results .card {
+    width: 73%;
+    margin: 0 auto;
 }
 /* arrow before dropdown-menu */
 .dropdown > .dropdown-menu:before
