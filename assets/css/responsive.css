@@ -44,6 +44,9 @@
         transform: none !important;
         top:4vw !important;
       }
+      #Features .card{
+        width: 50vw;
+    }
     .top-nav{
         font-size: 2vw;
     }
@@ -52,8 +55,8 @@
         width: 80vw;
     }
     .footer-menu{
-        width: 100% !important;
-        font-size: 2vh;
+        /* width: 100% !important; */
+        font-size: 2vw;
         /* border:1px solid red; */
         padding: 2vh;
     }
