@@ -36,6 +36,12 @@
     .nav-tabs .nav-link:last-child{
         font-size: 1vw;
     }
+    .footer-menu{
+        /* width: 100% !important; */
+        font-size: 1.5vw;
+        /* border:1px solid red; */
+        /* padding: 2vh; */
+    }
 }
 @media screen and (min-width: 550px) and (max-width: 770px) {
     .dropdown-menu{
@@ -56,9 +62,9 @@
     }
     .footer-menu{
         /* width: 100% !important; */
-        font-size: 2vw;
+        font-size: 1.5vw;
         /* border:1px solid red; */
-        padding: 2vh;
+        /* padding: 2vh; */
     }
     #about{
         display: block;
