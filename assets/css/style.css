@@ -334,6 +334,7 @@ ul {
 .results .card {
     width: 73%;
     margin: 0 auto;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.7);
 }
 /* arrow before dropdown-menu */
 .dropdown > .dropdown-menu:before
