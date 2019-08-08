@@ -375,7 +375,7 @@ nav > div a.nav-item.nav-link.active:after
  border-top-color: #007bff ;
 } */
 nav > div a.nav-item.nav-link{
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     vertical-align: top;
     background: rgb(28, 123, 214);
     color:white !important;
