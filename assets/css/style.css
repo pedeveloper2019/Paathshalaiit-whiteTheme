@@ -6,10 +6,12 @@
     background: #003153;
 }
 .bg-purple{
-    background: #93385FFF;
+    background:  #003232;
+    /* background: #93385FFF; */
 }
 .bg-lilac{
-    background: #9F6B99FF;
+    background: #23130c;
+    /* #9F6B99FF */
 }
 .bg-petunia{
     background: #4F3466FF;
@@ -27,6 +29,15 @@
 }
 .bg-wine{
     background: #643E46FF;
+}
+.bg-darkgreen{
+    background: #294f2a;
+}
+.bg-darkorange{
+    background: #0270a5;
+}
+.bg-darkgray{
+    background: #253c54;
 }
 .text-teal{
     color:#17a2b8;
