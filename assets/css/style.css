@@ -28,6 +28,9 @@
 .bg-wine{
     background: #643E46FF;
 }
+.text-teal{
+    color:#17a2b8;
+}
 /* For All Pages */
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
