@@ -53,6 +53,10 @@ body{
 /* h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 } */
+#my-carousel .carousel-inner .carousel-item
+{
+    height: 100vh;
+}
 .dropdown-item:hover{
     color:black !important;
 }
@@ -417,3 +421,6 @@ nav > div a.nav-item.nav-link.active{
 #accordion .card{
     margin-bottom: .5vh;
 }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }

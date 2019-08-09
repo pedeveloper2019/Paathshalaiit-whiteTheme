@@ -50,7 +50,7 @@
         transform: none !important;
         top:4vw !important;
       }
-      #Features .card{
+    #Features .card{
         width: 50vw;
     }
     .top-nav{
@@ -94,13 +94,16 @@
     }
 }
 @media screen and (max-width: 390px) {
-    
+    body{
+        width: 115vw;
+    }
     .nav-tabs .nav-item:last-child{
         /* display: inline-block; */
         /* border: 1px solid red; */
         font-size: .5vw;
     }
-    .nav-tabs .nav-link{
+    .nav-tabs.nav-link{
+        border: 1px solid red;
         font-size: 1vw !important;
     }
     

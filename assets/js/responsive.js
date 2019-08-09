@@ -1,4 +1,9 @@
 $(function () {
+    width = $(window).width()
+    $("body").css("width", width+"px");
+    $(".top-nav").css("width", width+"px");
+    // $(".navbar").css("width", width+"px !important");
+    
     $("#top-toggle").click(function (e) { 
         // e.preventDefault();
         $(".navCollapse").slideUp()
