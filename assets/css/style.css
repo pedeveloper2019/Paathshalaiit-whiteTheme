@@ -375,10 +375,16 @@ nav > div a.nav-item.nav-link.active:after
  border-top-color: #007bff ;
 } */
 nav > div a.nav-item.nav-link{
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     vertical-align: top;
     background: rgb(28, 123, 214);
     color:white !important;
+}
+.indexTabs nav > div a.nav-item.nav-link:last-child{
+    font-size: .6vw;
+}
+.indexTabs nav > div a.nav-item.nav-link{
+    font-size: .8vw;
 }
 
 nav > div a.nav-item.nav-link.active{
@@ -407,4 +413,7 @@ nav > div a.nav-item.nav-link.active{
 } */
 #testimonials .card{
     box-shadow: 0 6px 15px rgba(0,0,0,0.7);
+}
+#accordion .card{
+    margin-bottom: .5vh;
 }
