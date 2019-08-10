@@ -9,30 +9,25 @@ $(function () {
         $(".slideDiv").slideUp();
         $(".navCollapse").slideToggle();
     });
-    
-    $("#top-navigation .nav-item:not(.active)").mouseenter(function () { 
-        $("#top-navigation .nav-item.active").css("background","none")
-    });
-    $("#top-navigation .nav-item").mouseleave(function () { 
-        $("#top-navigation .nav-item.active").css("background","#1c7bd6")
-    });
-
     header = $("#slider").height()
-    
-    $(window).scroll(function () { 
-        if ($(window).scrollTop() >= header) {
-            // $(".togglebtn").css("color","black");
-            // $(".navbar").css("margin-top","0vh")
-            $(".navbar").css({"background-image":"url('assets/images/top-nav-bg.png')","background-repeat":"no-repeat","background-size":"cover"})
-            $("#top-navigation").css("background","none")
-        }
-        else {
-            $(".togglebtn").css("color","white");
-            $(".navbar").css("background","transparent")
-            $("#top-navigation").css("background-image","url('assets/images/top-nav-bg.png')")
-            // $(".navbar").css("margin-top","3vh")
-        }
-    });
+    var path = $(location).attr('pathname');
+    if(path.includes("index.html")){
+        $(window).scroll(function () { 
+            if ($(window).scrollTop() >= header) {
+                // $(".togglebtn").css("color","black");
+                // $(".navbar").css("margin-top","0vh")
+                $(".navbar").css({"background-image":"url('assets/images/top-nav-bg.png')","background-repeat":"no-repeat","background-size":"cover"})
+                $("#top-navigation").css("background","none")
+            }
+            else {
+                $(".togglebtn").css("color","white");
+                $(".navbar").css("background","transparent")
+                $("#top-navigation").css("background-image","url('assets/images/top-nav-bg.png')")
+                // $(".navbar").css("margin-top","3vh")
+            }
+        });
+    }
+   
     // alert($(window).width())
     if(!($(window).width() < 990))
     {

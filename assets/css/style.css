@@ -177,6 +177,9 @@ ul {
     color: white;
     font-weight: 600;
 }
+#top-navigation .nav-item:not(:first-child){
+    margin-left: .5vw;
+}
 #top-navigation .nav-item.active{
     /* border:1px solid red; */
     border-radius: .5vw;
@@ -188,6 +191,7 @@ ul {
     /* background: linear-gradient(to right, #3931af, #00c6ff); */
     background: #1c7bd6;
 }
+
 
 .navbar{
   margin-top: 4vh;
@@ -421,6 +425,6 @@ nav > div a.nav-item.nav-link.active{
 #accordion .card{
     margin-bottom: .5vh;
 }
-.dropdown:hover>.dropdown-menu {
+/* .dropdown:hover>.dropdown-menu {
     display: block;
-  }
+  } */
