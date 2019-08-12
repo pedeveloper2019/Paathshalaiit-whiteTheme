@@ -428,3 +428,27 @@ nav > div a.nav-item.nav-link.active{
 /* .dropdown:hover>.dropdown-menu {
     display: block;
   } */
+  .swiper-container {
+    width: 100%;
+    height: 70.1vh;
+    position: absolute;
+    left: 0%; 
+    top: 50%; 
+    /* margin-top: -150px;   */
+    margin-left: -150px;
+    /* border: 1px solid blue; */
+    overflow: hidden !important;
+
+  }
+  .swiper-slide {
+    /* border:1px solid red; */
+    overflow: hidden !important;
+    width: 99%;
+    height: 100%;
+  }
+  .text-gradient{
+      background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+      
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
