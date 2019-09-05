@@ -450,10 +450,15 @@ nav > div a.nav-item.nav-link.active{
   }
   .text-gradient{
       background: linear-gradient(to right, rgb(0, 183, 255) 0%, #190038 100%);
-      
+      background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
   .dropdown-icons{
       height: 2vw;
+  }
+
+  /* Testing Page Style */
+  .testBody{
+  background: url(../images/fixedBg.JPG) no-repeat center center;background-attachment: fixed;background-size: cover;
   }
